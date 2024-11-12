@@ -13,6 +13,7 @@ This project is a QR Code Generator and Scanner application, which allows users 
 The application leverages JavaScript, HTML, and CSS to provide an intuitive user interface and utilizes external APIs and libraries for QR code generation and scanning.
 
 ## Table of Contents
+
 - [Project Overview](#project-overview)
 
 - [Features](#features)
@@ -103,7 +104,7 @@ To run this project locally, follow these steps:
 
 - Alternatively, you can set up a local server using any development tool or simple HTTP server:
 
-# If you have Python installed, run this command from the project folder:
+4. **If you have Python installed, run this command from the project folder:**
    ```bash
    python -m http.server
    ```
