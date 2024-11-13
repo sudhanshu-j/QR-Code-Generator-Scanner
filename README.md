@@ -204,9 +204,9 @@ We would like to express our gratitude and appreciation to the following resourc
   The QR Server API is a free API service that allows easy generation and decoding of QR codes. It provided a simple and reliable way to generate and read QR codes programmatically.  
   [API Documentation: QR Server API](https://goqr.me/api/)
 
-- **Icons8**  
-  The icons used throughout the application, including those for buttons and user interactions, are sourced from Icons8. We appreciate their extensive library of high-quality and free-to-use icons.  
-  [Website: Icons8](https://icons8.com)
+- **remixicon**  
+  The icons used throughout the application, including those for buttons and user interactions, are sourced from remixicon. We appreciate their extensive library of high-quality and free-to-use icons.  
+  [Website: remixicon](https://remixicon.com)
 
 - **MDN Web Docs**  
   We relied on the detailed documentation and examples provided by MDN Web Docs to understand the latest web technologies (HTML5, CSS3, JavaScript ES6+) and to implement best practices in both development and UI/UX design.  
@@ -214,6 +214,7 @@ We would like to express our gratitude and appreciation to the following resourc
 
 - **Stack Overflow Community**  
   A big thank you to the Stack Overflow community for answering many questions and providing solutions to common development challenges, especially related to file handling, API requests, and JavaScript DOM manipulation.
+  [Website: Stack Overflow ](https://stackoverflow.com/)
 
 ## Contact
 
@@ -223,9 +224,8 @@ If you have any questions, suggestions, or feedback regarding the project, feel 
 
 - **GitHub Repository**: [https://github.com/your-username/qr-code-generator-scanner](https://github.com/your-username/qr-code-generator-scanner)
 
-- **LinkedIn**: [https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin)
+<!-- **LinkedIn**: [https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin) -->
 
-- **Twitter**: [https://twitter.com/your-twitter](https://twitter.com/your-twitter)
 
 We'd love to hear from you!
 
