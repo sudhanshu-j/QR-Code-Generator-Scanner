@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Specifies the character encoding for the HTML document -->
+    <meta charset="UTF-8" />
+
+    <!-- Ensures proper scaling on different screen sizes (especially for mobile devices) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the webpage, displayed on the browser tab -->
+    <title>QR Code Generator & Scanner</title>
+
+    <!-- Link to an external icon for the webpage -->
+    <link rel="icon" type="image/png" href="/icon.png" />
+
+    <!-- Link to an external CSS stylesheet for styling the webpage -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to Remix Icon library for using icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Main container for the content -->
+    <div class="container">
+      <!-- Navigation bar with buttons to switch between QR Code generator and scanner -->
+      <nav>
+        <!-- Button for generating QR code, has an active class by default -->
+        <button class="generate-btn active">Generate QR</button>
+
+        <!-- Button for scanning QR code -->
+        <button class="scanner-btn">Scan QR</button>
+      </nav>
+
+      <!-- QR code generator section -->
+      <div class="generator">
+        <!-- Heading for the QR code generator with an icon -->
+        <h1>
+          <i class="ri-barcode-line"></i>
+          QR code generator
+        </h1>
+
+        <!-- Description of the generator's function -->
+        <p class="desc">
+          Generate QR codes for sharing links, contact information, and more.
+          Enter your desired content below.
+        </p>
+
+        <!-- Form for generating QR codes -->
+        <form id="generator-form" class="generator-form" action="#">
+          <!-- Input field where the user can enter the content they want in the QR code -->
+          <input
+            type="text"
+            id="input-text"
+            name="input-text"
+            placeholder="Enter your content here..."
+          />
+
+          <!-- Button to trigger QR code generation -->
+          <button class="gene-btn">
+            <i class="ri-ai-generate"></i>
+            Generate QR code
+          </button>
+        </form>
+
+        <!-- Section where the generated QR code image will be displayed -->
+        <div class="generator-img">
+          <!-- QR code image that will change dynamically based on user input -->
+          <img src="/QR.png" alt="QR CODE" class="QR-img" />
+        </div>
+
+        <!-- Button to allow the user to download the generated QR code -->
+        <div class="generator-btn">
+          <button class="btn-link">
+            Download
+            <i class="ri-download-cloud-2-fill"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- QR code scanner section (hidden by default) -->
+      <div class="scanner" style="display: none">
+        <!-- Heading for the QR code scanner with icons -->
+        <h1>
+          QR code scanner
+          <i class="ri-camera-fill"></i>
+          <i class="ri-stop-circle-fill"></i>
+        </h1>
+
+        <!-- Form for the scanner section -->
+        <form class="scanner-form">
+          <!-- Hidden file input for uploading a QR code image -->
+          <input type="file" id="file-input" accept="image/*" hidden />
+
+          <!-- Placeholder image for QR code -->
+          <img src="/QR.png" alt="QR CODE" class="scanner-img" />
+
+          <!-- Video element for live video stream of QR scanning -->
+          <video class="scanner-video"></video>
+
+          <!-- Upload area with an icon and text for uploading QR images -->
+          <div class="content">
+            <i class="ri-upload-cloud-fill"></i>
+            <p class="para">Upload QR or Video QR code to Scan</p>
+          </div>
+        </form>
+
+        <!-- Section to display scanned QR code details -->
+        <div class="scanner-detail">
+          <!-- Text area to show the decoded content from the scanned QR code -->
+          <textarea class="text-area" disabled></textarea>
+
+          <!-- Buttons for additional actions -->
+          <div class="btns">
+            <!-- Button to close the scanner -->
+            <button class="close-btn">
+              close
+              <i class="ri-close-line"></i>
+            </button>
+
+            <!-- Button to copy the scanned QR content to clipboard -->
+            <button class="copy-btn">
+              Copy
+              <i class="ri-file-copy-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- External script for QR code scanning functionality -->
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+
+    <!-- Link to custom JavaScript file for handling QR code generation and scanning -->
+    <script src="main.js"></script>
+  </body>
+</html>
