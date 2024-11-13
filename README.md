@@ -214,7 +214,6 @@ We would like to express our gratitude and appreciation to the following resourc
 
 - **Stack Overflow Community**  
   A big thank you to the Stack Overflow community for answering many questions and providing solutions to common development challenges, especially related to file handling, API requests, and JavaScript DOM manipulation.
-
   [Website: Stack Overflow ](https://stackoverflow.com/)
 
 ## Contact
