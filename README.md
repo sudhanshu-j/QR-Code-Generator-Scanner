@@ -30,6 +30,12 @@ The application leverages JavaScript, HTML, and CSS to provide an intuitive user
 
 - [Contributing](#contributing)
 
+- [Acknowledgements](#acknowledgements)
+
+- [Contact](#contact)
+
+- [Live Demo](#live-demo)
+
 ## Project Overview
 
 The application consists of two primary sections:
