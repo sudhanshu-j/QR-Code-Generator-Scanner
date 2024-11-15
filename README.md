@@ -244,7 +244,7 @@ We'd love to hear from you!
 
 You can view a live demo of this project here:
 
-[Live Demo Link](#)  <!-- Replace # with the actual link to the live demo -->
+[Live Demo Link](https://easycodescan.netlify.app)  <!-- Replace # with the actual link to the live demo -->
 
 Feel free to interact with the features such as generating and scanning QR codes. If you encounter any issues or have any questions, don't hesitate to contact us!
 
