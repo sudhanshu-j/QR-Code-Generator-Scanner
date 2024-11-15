@@ -231,9 +231,9 @@ We would like to express our gratitude and appreciation to the following resourc
 
 If you have any questions, suggestions, or feedback regarding the project, feel free to reach out!
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [your-email@example.com](mailto:sudhanshujha164@gmail.com)
 
-- **GitHub Repository**: [https://github.com/your-username/qr-code-generator-scanner](https://github.com/your-username/qr-code-generator-scanner)
+- **GitHub Repository**: [QR Code Generator & Scanner](https://github.com/sudhanshu-j/QR-Code-Generator-Scanner/)
 
 <!-- **LinkedIn**: [https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin) -->
 
