@@ -1,12 +1,12 @@
-/* Poppins font import */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Edu AU VIC WA NT Pre font import */
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
 
 /* Universal selector for applying styles to all elements */
 * {
   margin: 0; /* Removes default margin from all elements */
   padding: 0; /* Removes default padding from all elements */
   box-sizing: border-box; /* Ensures padding and border are included in element's total width/height */
-  font-family: "Poppins", sans-serif; /* Sets the font family to Poppins */
+  font-family: "Edu AU VIC WA NT Pre", cursive; /* Sets the font family to Edu AU VIC WA NT Pre */
 }
 
 /* Body styles */
@@ -16,14 +16,14 @@ body {
   display: flex; /* Uses Flexbox to center content */
   align-items: center; /* Vertically centers the content */
   justify-content: center; /* Horizontally centers the content */
-  background-color: #f2f2f2; /* Light gray background */
+  background-color: #515151; /* gray background */
 }
 
 /* Main container styles */
 .container {
   width: 100%; /* Takes up the full width of its parent */
   max-width: 410px; /* Sets a maximum width of 410px for responsiveness */
-  background: #fff; /* White background for the container */
+  background: #c8c8c8; /* background for the container */
   border-radius: 7px; /* Rounded corners */
   padding: 15px 25px; /* Padding inside the container */
   overflow: hidden; /* Prevents content from overflowing */
@@ -55,15 +55,15 @@ nav button {
   text-align: center; /* Centers the text */
   height: 45px; /* Sets the height of the button */
   letter-spacing: 2px; /* Adds spacing between letters */
-  border-bottom: 2px solid #ccc; /* Adds a bottom border */
+  border-bottom: 2px solid #333; /* Adds a bottom border */
   opacity: 0.5; /* Reduces opacity for inactive state */
 }
 
 /* Active button styles */
 nav button.active {
-  border-bottom: 2px solid #000; /* Darkens the bottom border for active buttons */
+  border-bottom: 2.5px solid #000; /* Darkens the bottom border for active buttons */
   font-weight: 700; /* Makes the font bold */
-  color: #0283d8; /* Changes the text color to blue */
+  color: #30874d; /* Changes the text color to green */
   opacity: 1; /* Makes the active button fully opaque */
 }
 
@@ -72,24 +72,25 @@ nav button.active {
 /* Generator container */
 .generator {
   overflow: hidden; /* Prevents overflow */
-  height: 270px; /* Default height */
+  height: 290px; /* Default height */
   transition: height 0.4s; /* Smooth transition for height change */
 }
 
 /* Active generator section (when expanded) */
 .generator.active {
-  height: 600px; /* Increases height when active */
+  height: 620px; /* Increases height when active */
 }
 
 /* Heading inside the generator */
 .generator h1 {
-  font-size: 21px; /* Sets the font size */
+  font-size: 1.313rem; /* Sets the font size */
+  color: #333333; /* Sets the color */
 }
 
 /* Paragraph inside the generator */
 .generator p {
   color: #555; /* Sets a dark gray color */
-  font-size: 16px; /* Sets the font size */
+  font-size: 1rem; /* Sets the font size */
   margin-top: 5px; /* Adds space above the paragraph */
 }
 
@@ -102,10 +103,11 @@ nav button.active {
 .generator-form input {
   width: 100%; /* Full width */
   height: 55px; /* Sets height */
-  border: 1px solid #999; /* Light gray border */
+  border: 1.5px solid #999; /* Light gray border */
   outline: none; /* Removes the outline */
-  border-radius: 5px; /* Rounds the corners */
-  font-size: 18px; /* Larger font size */
+  border-radius: 10px; /* Rounds the corners */
+  font-size: 1.125rem; /* Larger font size */
+  font-weight: 500;
   padding: 0px 15px; /* Adds padding inside the input */
 }
 
@@ -113,16 +115,18 @@ nav button.active {
 .generator-form button {
   width: 100%; /* Full width */
   height: 55px; /* Sets height */
-  background: #0283d8; /* Blue background */
+  background: #4692c9; /* Blue background */
   color: #fff; /* White text */
-  font-size: 17px; /* Font size */
+  border-radius: 30px; /* Small radius */
+  font-size: 1rem; /* Font size */
+  font-weight: 500; /* Font weight */
   margin-top: 20px; /* Adds space above the button */
   transition: 0.5s; /* Smooth transition effect */
 }
 
 /* Hover effect on the generator form button */
 .generator-form button:hover {
-  background: transparent; /* Makes the background transparent */
+  background: #2f9fef; /* Makes the background transparent */
   color: #000; /* Changes text color to black */
 }
 
@@ -155,16 +159,16 @@ nav button.active {
   text-transform: uppercase; /* Uppercase text */
   letter-spacing: 5px; /* Adds spacing between letters */
   font-weight: 500; /* Medium font weight */
-  font-size: 0.8rem; /* Smaller font size */
+  font-size: 0.7rem; /* Smaller font size */
   padding: 10px 10px 10px 0; /* Adds padding */
   transition: 0.5s; /* Smooth transition effect */
 }
 
 /* Hover effect for the download button */
 .generator-btn .btn-link:hover {
-  color: #0283d8; /* Changes text color to blue */
+  color: #333; /* Changes text color to blue */
   padding: 10px; /* Increases padding */
-  background: rgb(36, 113, 255, 0.2); /* Adds a light blue background */
+  background: hsla(205, 86%, 56%, 0.2); /* Adds a light blue background */
 }
 
 /* Scanner Section Styles */
@@ -183,25 +187,25 @@ nav button.active {
 
 /* Styles for the heading inside the scanner section */
 .scanner h1 {
-  font-size: 21px; /* Font size */
+  font-size: 1.313rem; /* Font size */
   margin-bottom: 15px; /* Adds space below the heading */
 }
 
 /* Icons inside the scanner heading */
 .scanner h1 i {
-  font-size: x-large; /* Increases icon size */
+  font-size: 1.5rem; /* Increases icon size */
   margin-left: 5px; /* Adds space to the left of the icon */
   cursor: pointer; /* Pointer cursor for interactivity */
 }
 
 /* Color for the camera icon */
 .scanner h1 .ri-camera-fill {
-  color: #0283d8; /* Blue color */
+  color: #4d5bff; /* Blue color */
 }
 
 /* Color for the stop icon (hidden by default) */
 .scanner h1 .ri-stop-circle-fill {
-  color: crimson; /* Red color */
+  color: #940824; /* Red color */
   display: none; /* Hidden by default */
 }
 
@@ -280,7 +284,7 @@ nav button.active {
   height: 150px; /* Sets height */
   padding: 10px 15px; /* Padding inside the textarea */
   outline: none; /* Removes the outline */
-  font-size: 16px; /* Font size */
+  font-size: 1rem; /* Font size */
   resize: none; /* Prevents resizing */
   border-radius: 5px; /* Rounded corners */
 }
@@ -298,7 +302,7 @@ nav button.active {
   width: calc(100% / 2 - 10px); /* Half width minus spacing */
   background: #0283d8; /* Blue background */
   color: #fff; /* White text */
-  font-size: 18px; /* Font size */
+  font-size: 1.125rem; /* Font size */
   letter-spacing: 1px; /* Adds letter spacing */
   border-radius: 5px; /* Rounded corners */
   transition: 0.5s; /* Smooth transition */
@@ -335,7 +339,7 @@ nav button.active {
   /* Adjustments for smaller screens */
   nav button {
     /* Targets button elements within the nav element */
-    font-size: 14px; /* Reduces the font size to 14px for smaller screens */
+    font-size: 0.875rem; /* Reduces the font size to 14px for smaller screens */
   }
 
   .generator {
@@ -346,7 +350,7 @@ nav button.active {
   /* Adjustments for smaller screens */
   .generator h1 {
     /* Targets h1 elements within the 'generator' class */
-    font-size: 18px; /* Reduces the font size of the h1 heading to 18px for smaller screens */
+    font-size: 1.125rem; /* Reduces the font size of the h1 heading to 18px for smaller screens */
   }
 
   /* Adjustments for smaller screens */
@@ -359,14 +363,14 @@ nav button.active {
   .generator-form #input-text {
     /* Targets the input field with id 'input-text' */
     width: 100%; /* Sets the width of the input field to full width */
-    font-size: 14px; /* Reduces the font size of the input field to 14px for smaller screens */
+    font-size: 0.875rem; /* Reduces the font size of the input field to 0.875rem for smaller screens */
     height: 35px; /* Sets the height of the input field to 35px */
   }
 
   /* Adjustments for smaller screens */
   .generator-form .gene-btn {
     /* Targets the button with class 'gene-btn' */
-    font-size: 14px; /* Reduces the font size of the button to 14px for smaller screens */
+    font-size: 0.875rem; /* Reduces the font size of the button to 14px for smaller screens */
     padding: 5px 10px; /* Reduces the padding of the button to 5px on both sides */
     height: 35px; /* Reduces the height of the button to 35px on both sides */
   }
@@ -383,7 +387,7 @@ nav button.active {
   }
 
   .scanner h1 {
-    font-size: 18px; /* Reduces the font size of the h1 heading to 18px for smaller screens */
+    font-size: 1.125rem; /* Reduces the font size of the h1 heading to 18px for smaller screens */
   }
 }
 /* End of media query */
